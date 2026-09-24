@@ -121,8 +121,42 @@ function App() {
                   My next step is to build a small working prototype based on what I learn from Dreamcash, its developer resources and its connection with Hyperliquid.
                 </p>
               </motion.div>
+
+              
             </div>
           </div>
+
+          <motion.div {...fade} className="mt-10 border-t border-white/10 pt-8">
+            <p className="text-xs uppercase tracking-[0.22em] text-white/35">
+              What I could contribute
+            </p>
+
+            <div className="mt-6 grid gap-4 md:grid-cols-2">
+              <div className="glass rounded-[24px] p-6">
+                <p className="text-sm text-white/35">01</p>
+                <h3 className="mt-4 text-xl font-medium text-white">
+                  Community perspective
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-white/55">
+                  As a Korean speaker with experience running a crypto and tech community,
+                  I can bring a user perspective shaped by direct conversations around
+                  crypto, airdrops and emerging technology.
+                </p>
+              </div>
+
+              <div className="glass rounded-[24px] p-6">
+                <p className="text-sm text-white/35">02</p>
+                <h3 className="mt-4 text-xl font-medium text-white">
+                  Interactive product experience
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-white/55">
+                  I’m interested in building interactive interfaces that make complex
+                  trading features easier to understand and use, especially for people
+                  who are less familiar with Web3 products.
+                </p>
+              </div>
+            </div>
+          </motion.div>
 
           <motion.div {...fade} className="mt-5 rounded-[30px] border border-white/[0.07] bg-black/20 p-7 sm:p-9">
             <div className="grid gap-8 md:grid-cols-3">
